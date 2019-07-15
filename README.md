@@ -1,6 +1,10 @@
 # Faster-RCNN
 A very simple faster rcnn model
-
+dependancies:
+1) python 3.6
+2) tensorflow gpu 1.12.0
+3) cuda 9.0
+4) cuDNN 7.1.4
 # Dataset
 the dataset is derived from stanford obejct detection dataset for cars. Here is the [link](http://ai.stanford.edu/~jkrause/cars/car_dataset.html) to the dataset.
 the dataset contains

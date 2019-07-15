@@ -14,7 +14,7 @@ the dataset contains
 2) test set containing 8,041 testing images
 3) devkit containing the bounding boxes and class labels as a .mat file
 
-note: the .mat files have been converted to dictionaries. cars_train and cars_test are dictionaries containing image jpg file namea for training set and test set, consecutively and the cars_train_annos and cars_test_annos refer to both training set and test set bounding boxes with keys as jpg name of the image and values as list of bounding boxes, which each bounding box is a list consisting of xmin, ymin, xmax, ymax values of the bounding box.
+note: the .mat files have been converted to dictionaries. cars_train and cars_test are dictionaries containing image jpg file names for training set and test set, consecutively. The cars_train_annos and cars_test_annos refer to both training set and test set bounding boxes with keys as jpg names of the images and values as list of bounding boxes of that particular image corresponding the key. Each bounding box is a list consisting of xmin, ymin, xmax, ymax values of the bounding box.
 
 **for tutorial of Faster RCNN please refer to [Link](https://medium.com/@parsa_h_m/faster-rcnn-a-survey-f32380cdd7ed)**
 
